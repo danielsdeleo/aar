@@ -1,0 +1,48 @@
+{
+  "revision_id": "5f750bf464100b487cd7c276c5d532341b79fbeb5e8accd29538ae972896992b",
+  "name": "aar",
+  "run_list": [
+    "recipe[aar::default]"
+  ],
+  "cookbook_locks": {
+    "aar": {
+      "version": "0.1.0",
+      "identifier": "cff2d37260c04b21053ad30b68aa20e674e52e6c",
+      "dotted_decimal_identifier": "58532310150070347.9294424438433962.36174175743596",
+      "source": "cookbooks/aar",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "3455fb415d56f9a7cabbb76f2063942a6547b2eb",
+        "working_tree_clean": true,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "cookbooks/aar"
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "aar",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "aar (0.1.0)": [
+
+      ]
+    }
+  }
+}
