@@ -1,3 +1,4 @@
+raise "OH NO THIS IS A BUG"
 #
 # Cookbook Name:: aar
 # Recipe:: default
