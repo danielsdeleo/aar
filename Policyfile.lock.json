@@ -1,5 +1,5 @@
 {
-  "revision_id": "95040c199302c85c9ccf1bcc6746968b820b1fa25d92477ea2ec5386cd58b9c5",
+  "revision_id": "8312cd89c94aa694365bb35ed9018af4be815b220a9b80927044385183b56704",
   "name": "aar",
   "run_list": [
     "recipe[aar::default]"
@@ -7,14 +7,14 @@
   "cookbook_locks": {
     "aar": {
       "version": "0.1.0",
-      "identifier": "c89808699edb7abe0569d6dd761d94912f998733",
-      "dotted_decimal_identifier": "56462157241310074.53486197709567517.163351289759539",
+      "identifier": "0c64b56efa1d30a5149a13eb12d8c8af14b2365b",
+      "dotted_decimal_identifier": "3488430134271280.46466023148950232.220654292055643",
       "source": "cookbooks/aar",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
-        "remote": null,
-        "revision": "4e1d502f4df8c2ce1c90710e5047a2bb02143ce4",
+        "remote": "git@github.com:danielsdeleo/aar.git",
+        "revision": "211cad0c77380c3135f31c56e4a40a675fc4e598",
         "working_tree_clean": false,
         "published": false,
         "synchronized_remote_branches": [
@@ -47,39 +47,6 @@
         "version": "0.9.0"
       }
     },
-    "windows": {
-      "version": "1.36.6",
-      "identifier": "5d3e2c4806b907ed964e2961a9f8a480a24b0ec4",
-      "dotted_decimal_identifier": "26245532741974279.66874831926307320.180872385597124",
-      "cache_key": "windows-1.36.6-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/windows/versions/1.36.6/download",
-      "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/windows/versions/1.36.6/download",
-        "version": "1.36.6"
-      }
-    },
-    "chef_handler": {
-      "version": "1.1.6",
-      "identifier": "0da8b2591b4ad42a2099eb149bba5e2374392dbc",
-      "dotted_decimal_identifier": "3844658649844436.11857794467929018.103506366770620",
-      "cache_key": "chef_handler-1.1.6-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/chef_handler/versions/1.1.6/download",
-      "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/chef_handler/versions/1.1.6/download",
-        "version": "1.1.6"
-      }
-    },
-    "7-zip": {
-      "version": "1.0.2",
-      "identifier": "dec0b1942996ee75b06097ba3f5e65d60e53a135",
-      "dotted_decimal_identifier": "62699313757263598.33126501184061278.111970037768501",
-      "cache_key": "7-zip-1.0.2-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/7-zip/versions/1.0.2/download",
-      "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/7-zip/versions/1.0.2/download",
-        "version": "1.0.2"
-      }
-    },
     "python": {
       "version": "1.4.6",
       "identifier": "330376a863f39c1fb409df23fbcc56aa8c981fdd",
@@ -89,6 +56,28 @@
       "source_options": {
         "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/python/versions/1.4.6/download",
         "version": "1.4.6"
+      }
+    },
+    "database": {
+      "version": "4.0.8",
+      "identifier": "e7292320b1d3b5e20846d4fc90573e18af2a6cf6",
+      "dotted_decimal_identifier": "65065950469280693.63622445050662999.68275738930422",
+      "cache_key": "database-4.0.8-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/database/versions/4.0.8/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/database/versions/4.0.8/download",
+        "version": "4.0.8"
+      }
+    },
+    "mysql2_chef_gem": {
+      "version": "1.0.2",
+      "identifier": "359b34b223c5d5c73544a8a3f910a67a254dcf9a",
+      "dotted_decimal_identifier": "15088824394958293.56072089368787216.183043542077338",
+      "cache_key": "mysql2_chef_gem-1.0.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/mysql2_chef_gem/versions/1.0.2/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/mysql2_chef_gem/versions/1.0.2/download",
+        "version": "1.0.2"
       }
     },
     "build-essential": {
@@ -102,48 +91,81 @@
         "version": "2.2.3"
       }
     },
-    "yum-epel": {
-      "version": "0.6.0",
-      "identifier": "cd74f541ba0341abcc168c74471c349ca68f77b7",
-      "dotted_decimal_identifier": "57830966944203585.48356618235299612.57847413962679",
-      "cache_key": "yum-epel-0.6.0-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/yum-epel/versions/0.6.0/download",
+    "mysql": {
+      "version": "6.1.0",
+      "identifier": "4c46e53035e056327c5ce2f5667dcecb57227501",
+      "dotted_decimal_identifier": "21470048400302166.14210487222101629.227372735558913",
+      "cache_key": "mysql-6.1.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/mysql/versions/6.1.0/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/yum-epel/versions/0.6.0/download",
-        "version": "0.6.0"
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/mysql/versions/6.1.0/download",
+        "version": "6.1.0"
+      }
+    },
+    "mariadb": {
+      "version": "0.3.1",
+      "identifier": "806c1cc95a7bebdb13aca9ef7157a60feae5e0cf",
+      "dotted_decimal_identifier": "36147667911998443.61664652205977943.182587295654095",
+      "cache_key": "mariadb-0.3.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/mariadb/versions/0.3.1/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/mariadb/versions/0.3.1/download",
+        "version": "0.3.1"
       }
     },
     "yum": {
-      "version": "3.6.0",
-      "identifier": "6840f0ad8b45ba80eb202e1c11a27ce40e2e3221",
-      "dotted_decimal_identifier": "29344800025822650.36287320464036258.137318932296225",
-      "cache_key": "yum-3.6.0-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/yum/versions/3.6.0/download",
+      "version": "3.6.3",
+      "identifier": "e640703e1d237cbace9ba8c078a1c6bbad379a3e",
+      "dotted_decimal_identifier": "64810095466062716.52581513614620833.218509367286334",
+      "cache_key": "yum-3.6.3-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/yum/versions/3.6.3/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/yum/versions/3.6.0/download",
-        "version": "3.6.0"
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/yum/versions/3.6.3/download",
+        "version": "3.6.3"
       }
     },
-    "database": {
-      "version": "4.0.5",
-      "identifier": "82bc8f15d750a719e690f8794e132de7737b1865",
-      "dotted_decimal_identifier": "36799069705162919.7290384736144915.50472098142309",
-      "cache_key": "database-4.0.5-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/database/versions/4.0.5/download",
+    "yum-epel": {
+      "version": "0.6.2",
+      "identifier": "8c4868aa520cabe98df439c342d7a08799d3e3e2",
+      "dotted_decimal_identifier": "39486111110794411.65739749654217431.176504261829602",
+      "cache_key": "yum-epel-0.6.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/yum-epel/versions/0.6.2/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/database/versions/4.0.5/download",
-        "version": "4.0.5"
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/yum-epel/versions/0.6.2/download",
+        "version": "0.6.2"
+      }
+    },
+    "windows": {
+      "version": "1.38.1",
+      "identifier": "7d294359db7db3df7531df602de34d099ed18185",
+      "dotted_decimal_identifier": "35229741335936435.62897776867945955.84703714574725",
+      "cache_key": "windows-1.38.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/windows/versions/1.38.1/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/windows/versions/1.38.1/download",
+        "version": "1.38.1"
+      }
+    },
+    "7-zip": {
+      "version": "1.0.2",
+      "identifier": "dec0b1942996ee75b06097ba3f5e65d60e53a135",
+      "dotted_decimal_identifier": "62699313757263598.33126501184061278.111970037768501",
+      "cache_key": "7-zip-1.0.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/7-zip/versions/1.0.2/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/7-zip/versions/1.0.2/download",
+        "version": "1.0.2"
       }
     },
     "postgresql": {
-      "version": "3.4.18",
-      "identifier": "d49e1b8b4835d78c2b353adc89b08c57e0be7ed3",
-      "dotted_decimal_identifier": "59846536200730071.39454004360284592.154309060624083",
-      "cache_key": "postgresql-3.4.18-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/postgresql/versions/3.4.18/download",
+      "version": "3.4.20",
+      "identifier": "e5385d417069fbb0e2e54e77cd53c2b2d79935a7",
+      "dotted_decimal_identifier": "64519742847740411.49789070392937811.214073377109415",
+      "cache_key": "postgresql-3.4.20-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/postgresql/versions/3.4.20/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/postgresql/versions/3.4.18/download",
-        "version": "3.4.18"
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/postgresql/versions/3.4.20/download",
+        "version": "3.4.20"
       }
     },
     "openssl": {
@@ -158,36 +180,25 @@
       }
     },
     "chef-sugar": {
-      "version": "3.1.0",
-      "identifier": "4890408f53f041ae3d67f2c3475980d2a82a1f69",
-      "dotted_decimal_identifier": "20424805280116801.49044162611464025.141642252820329",
-      "cache_key": "chef-sugar-3.1.0-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/chef-sugar/versions/3.1.0/download",
+      "version": "3.1.1",
+      "identifier": "bb2138b915a32f721c3b531250dfe2572185dc5e",
+      "dotted_decimal_identifier": "52672348151980847.32119188467372255.248863852452958",
+      "cache_key": "chef-sugar-3.1.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/chef-sugar/versions/3.1.1/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/chef-sugar/versions/3.1.0/download",
-        "version": "3.1.0"
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/chef-sugar/versions/3.1.1/download",
+        "version": "3.1.1"
       }
     },
-    "mysql2_chef_gem": {
-      "version": "1.0.1",
-      "identifier": "1e295590e7dbf67b1380c7ee7e1ead593454e84b",
-      "dotted_decimal_identifier": "8489696781392886.34642865966448158.190598641674315",
-      "cache_key": "mysql2_chef_gem-1.0.1-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/mysql2_chef_gem/versions/1.0.1/download",
+    "chef_handler": {
+      "version": "1.2.0",
+      "identifier": "f1255ebe8b01fd471b4879aeccdbf940d90e388d",
+      "dotted_decimal_identifier": "67876558241202685.20014721439550683.274056914811021",
+      "cache_key": "chef_handler-1.2.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/chef_handler/versions/1.2.0/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/mysql2_chef_gem/versions/1.0.1/download",
-        "version": "1.0.1"
-      }
-    },
-    "mysql": {
-      "version": "6.0.21",
-      "identifier": "6b506252cae939c874bd59b560c339b01c31326b",
-      "dotted_decimal_identifier": "30206205734086969.56423351944831171.63428550013547",
-      "cache_key": "mysql-6.0.21-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/mysql/versions/6.0.21/download",
-      "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/mysql/versions/6.0.21/download",
-        "version": "6.0.21"
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/chef_handler/versions/1.2.0/download",
+        "version": "1.2.0"
       }
     },
     "yum-mysql-community": {
@@ -202,14 +213,14 @@
       }
     },
     "smf": {
-      "version": "2.2.6",
-      "identifier": "efbcfeb202c03febcb2dd6451f41dcbcaf3719a5",
-      "dotted_decimal_identifier": "67480321528086591.66370017255825217.242702951586213",
-      "cache_key": "smf-2.2.6-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/smf/versions/2.2.6/download",
+      "version": "2.2.7",
+      "identifier": "49e1c63d34fc90f2c8a2f05e935c98397c050cca",
+      "dotted_decimal_identifier": "20795914846534800.68337546506965852.167372661263562",
+      "cache_key": "smf-2.2.7-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io/api/v1/cookbooks/smf/versions/2.2.7/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/smf/versions/2.2.6/download",
-        "version": "2.2.6"
+        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/smf/versions/2.2.7/download",
+        "version": "2.2.7"
       }
     },
     "rbac": {
@@ -221,17 +232,6 @@
       "source_options": {
         "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/rbac/versions/1.0.3/download",
         "version": "1.0.3"
-      }
-    },
-    "mariadb": {
-      "version": "0.3.0",
-      "identifier": "b611c47a7592a4abf1e7155eeb87adebcd9130fc",
-      "dotted_decimal_identifier": "51247981327127204.48398195815803783.191228277764348",
-      "cache_key": "mariadb-0.3.0-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io/api/v1/cookbooks/mariadb/versions/0.3.0/download",
-      "source_options": {
-        "artifactserver": "https://supermarket.chef.io/api/v1/cookbooks/mariadb/versions/0.3.0/download",
-        "version": "0.3.0"
       }
     }
   },
@@ -256,40 +256,48 @@
         "= 0.9.0"
       ],
       [
-        "windows",
-        "= 1.36.6"
-      ],
-      [
-        "chef_handler",
-        "= 1.1.6"
-      ],
-      [
-        "7-zip",
-        "= 1.0.2"
-      ],
-      [
         "python",
         "= 1.4.6"
+      ],
+      [
+        "database",
+        "= 4.0.8"
+      ],
+      [
+        "mysql2_chef_gem",
+        "= 1.0.2"
       ],
       [
         "build-essential",
         "= 2.2.3"
       ],
       [
-        "yum-epel",
-        "= 0.6.0"
+        "mysql",
+        "= 6.1.0"
+      ],
+      [
+        "mariadb",
+        "= 0.3.1"
       ],
       [
         "yum",
-        "= 3.6.0"
+        "= 3.6.3"
       ],
       [
-        "database",
-        "= 4.0.5"
+        "yum-epel",
+        "= 0.6.2"
+      ],
+      [
+        "windows",
+        "= 1.38.1"
+      ],
+      [
+        "7-zip",
+        "= 1.0.2"
       ],
       [
         "postgresql",
-        "= 3.4.18"
+        "= 3.4.20"
       ],
       [
         "openssl",
@@ -297,15 +305,11 @@
       ],
       [
         "chef-sugar",
-        "= 3.1.0"
+        "= 3.1.1"
       ],
       [
-        "mysql2_chef_gem",
-        "= 1.0.1"
-      ],
-      [
-        "mysql",
-        "= 6.0.21"
+        "chef_handler",
+        "= 1.2.0"
       ],
       [
         "yum-mysql-community",
@@ -313,150 +317,14 @@
       ],
       [
         "smf",
-        "= 2.2.6"
+        "= 2.2.7"
       ],
       [
         "rbac",
         "= 1.0.3"
-      ],
-      [
-        "mariadb",
-        "= 0.3.0"
       ]
     ],
     "dependencies": {
-      "apt (2.7.0)": [
-
-      ],
-      "ark (0.9.0)": [
-        [
-          "windows",
-          ">= 0.0.0"
-        ],
-        [
-          "7-zip",
-          ">= 0.0.0"
-        ]
-      ],
-      "windows (1.36.6)": [
-        [
-          "chef_handler",
-          ">= 0.0.0"
-        ]
-      ],
-      "chef_handler (1.1.6)": [
-
-      ],
-      "7-zip (1.0.2)": [
-        [
-          "windows",
-          ">= 1.2.2"
-        ]
-      ],
-      "python (1.4.6)": [
-        [
-          "build-essential",
-          ">= 0.0.0"
-        ],
-        [
-          "yum-epel",
-          ">= 0.0.0"
-        ]
-      ],
-      "build-essential (2.2.3)": [
-
-      ],
-      "yum-epel (0.6.0)": [
-        [
-          "yum",
-          "~> 3.0"
-        ]
-      ],
-      "yum (3.6.0)": [
-
-      ],
-      "database (4.0.5)": [
-        [
-          "postgresql",
-          ">= 1.0.0"
-        ]
-      ],
-      "postgresql (3.4.18)": [
-        [
-          "apt",
-          ">= 1.9.0"
-        ],
-        [
-          "build-essential",
-          ">= 0.0.0"
-        ],
-        [
-          "openssl",
-          "~> 4.0.0"
-        ]
-      ],
-      "openssl (4.0.0)": [
-        [
-          "chef-sugar",
-          ">= 0.0.0"
-        ]
-      ],
-      "chef-sugar (3.1.0)": [
-
-      ],
-      "mysql2_chef_gem (1.0.1)": [
-        [
-          "build-essential",
-          ">= 0.0.0"
-        ],
-        [
-          "mysql",
-          ">= 0.0.0"
-        ],
-        [
-          "mariadb",
-          ">= 0.0.0"
-        ]
-      ],
-      "mysql (6.0.21)": [
-        [
-          "yum-mysql-community",
-          ">= 0.0.0"
-        ],
-        [
-          "smf",
-          ">= 0.0.0"
-        ]
-      ],
-      "yum-mysql-community (0.1.17)": [
-        [
-          "yum",
-          ">= 3.0.0"
-        ]
-      ],
-      "smf (2.2.6)": [
-        [
-          "rbac",
-          ">= 1.0.1"
-        ]
-      ],
-      "rbac (1.0.3)": [
-
-      ],
-      "mariadb (0.3.0)": [
-        [
-          "apt",
-          ">= 0.0.0"
-        ],
-        [
-          "yum",
-          ">= 0.0.0"
-        ],
-        [
-          "yum-epel",
-          ">= 0.0.0"
-        ]
-      ],
       "aar (0.1.0)": [
         [
           "apt",
@@ -478,6 +346,138 @@
           "mysql2_chef_gem",
           ">= 0.0.0"
         ]
+      ],
+      "apt (2.7.0)": [
+
+      ],
+      "ark (0.9.0)": [
+        [
+          "windows",
+          ">= 0.0.0"
+        ],
+        [
+          "7-zip",
+          ">= 0.0.0"
+        ]
+      ],
+      "python (1.4.6)": [
+        [
+          "build-essential",
+          ">= 0.0.0"
+        ],
+        [
+          "yum-epel",
+          ">= 0.0.0"
+        ]
+      ],
+      "database (4.0.8)": [
+        [
+          "postgresql",
+          ">= 1.0.0"
+        ]
+      ],
+      "mysql2_chef_gem (1.0.2)": [
+        [
+          "build-essential",
+          ">= 0.0.0"
+        ],
+        [
+          "mysql",
+          "~> 6.0"
+        ],
+        [
+          "mariadb",
+          ">= 0.0.0"
+        ]
+      ],
+      "build-essential (2.2.3)": [
+
+      ],
+      "mysql (6.1.0)": [
+        [
+          "yum-mysql-community",
+          ">= 0.0.0"
+        ],
+        [
+          "smf",
+          ">= 0.0.0"
+        ]
+      ],
+      "mariadb (0.3.1)": [
+        [
+          "apt",
+          ">= 0.0.0"
+        ],
+        [
+          "yum",
+          ">= 0.0.0"
+        ],
+        [
+          "yum-epel",
+          ">= 0.0.0"
+        ]
+      ],
+      "yum (3.6.3)": [
+
+      ],
+      "yum-epel (0.6.2)": [
+        [
+          "yum",
+          "~> 3.2"
+        ]
+      ],
+      "windows (1.38.1)": [
+        [
+          "chef_handler",
+          ">= 0.0.0"
+        ]
+      ],
+      "7-zip (1.0.2)": [
+        [
+          "windows",
+          ">= 1.2.2"
+        ]
+      ],
+      "postgresql (3.4.20)": [
+        [
+          "apt",
+          ">= 1.9.0"
+        ],
+        [
+          "build-essential",
+          ">= 0.0.0"
+        ],
+        [
+          "openssl",
+          "~> 4.0.0"
+        ]
+      ],
+      "openssl (4.0.0)": [
+        [
+          "chef-sugar",
+          ">= 0.0.0"
+        ]
+      ],
+      "chef-sugar (3.1.1)": [
+
+      ],
+      "chef_handler (1.2.0)": [
+
+      ],
+      "yum-mysql-community (0.1.17)": [
+        [
+          "yum",
+          ">= 3.0.0"
+        ]
+      ],
+      "smf (2.2.7)": [
+        [
+          "rbac",
+          ">= 1.0.1"
+        ]
+      ],
+      "rbac (1.0.3)": [
+
       ]
     }
   }

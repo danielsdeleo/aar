@@ -88,8 +88,8 @@ end
 
 # Locations of these files are probably slightly different based on platform.
 # This works on Ubuntu 12.04
-link "/etc/apache2/sites-enabled/000-default" do
-  to "/etc/apache2/sites-available/default"
+link "/etc/apache2/sites-enabled/000-default.conf" do
+  to "/etc/apache2/sites-available/000-default.conf"
   action :delete
   notifies :restart, "service[apache2]"
 end

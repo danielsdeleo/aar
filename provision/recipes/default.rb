@@ -4,7 +4,10 @@ context = ChefDK::ProvisioningData.context
 with_driver 'vagrant:~/.vagrant.d/boxes' do
 
   options = {
-    vagrant_options: { 'vm.box' => 'opscode-ubuntu-14.04' },
+    vagrant_options: {
+      'vm.box' => 'opscode-ubuntu-14.04',
+      'vm.network' => ":forwarded_port, guest: 80, host: 8080"
+    },
     convergence_options: context.convergence_options
   }
 
