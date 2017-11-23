@@ -8,6 +8,6 @@ version          '0.1.0'
 
 depends          'apt'
 depends          'ark'
-depends          'python'
+depends          'poise-python'
 depends          'database'
 depends          'mysql2_chef_gem'
